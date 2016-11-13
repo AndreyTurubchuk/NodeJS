@@ -1,3 +1,4 @@
+// Задача 2B
 // НУ и гавнокод у меня
 import express from 'express';
 import cors from 'cors';
