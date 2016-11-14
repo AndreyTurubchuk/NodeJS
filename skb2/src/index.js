@@ -6,7 +6,7 @@ import canonize from './canonize'
 const app = express();
 app.use(cors());
 
-  app.get('/task2C', (req, res) => {
+ app.get('/task2C', (req, res) => {
     var answer = "";
     const username = (req.query.username).toString();
     const usernameout = canonize(username);
